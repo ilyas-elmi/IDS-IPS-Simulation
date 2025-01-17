@@ -18,3 +18,5 @@ After SSHing into the instance, disable the firewall (if applicable):
 sudo systemctl stop firewalld
 
 # Note: If the service is not found, your instance does not have firewalld installed by default.
+
+![Disabling Firewall](../screenshots/Screenshot%202025-01-17%20at%2020.00.37.png)
