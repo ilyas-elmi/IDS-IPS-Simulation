@@ -42,5 +42,6 @@ Deployed an IDS/IPS using Snort on AWS EC2 to monitor and log malicious activity
 4. **Operational Efficiency:** Reduces the risk of downtime or data loss by proactively monitoring and responding to attacks.
 5. **Insights and Forensics:** Offers detailed logging and alerts, enabling organizations to analyze attack vectors and strengthen security posture.
 
+---
 Organizations leverage IDS/IPS systems to maintain a robust defense against evolving cyber threats, ensuring operational continuity and safeguarding assets.
 
