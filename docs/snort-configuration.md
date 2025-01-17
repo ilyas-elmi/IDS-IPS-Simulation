@@ -67,4 +67,4 @@ sudo make install
 ```bash 
 sudo ldconfig
 ``` 
-![Libdnet Process](../screenshots/Screenshot%202025-01-17%20at%2019.44.55.png)
+![Libdnet Process](../screenshots/Screenshot%202025-01-17%20at%2021.23.56.png)
