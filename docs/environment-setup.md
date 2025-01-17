@@ -11,7 +11,10 @@
 ![EC2 Instance Launch](../screenshots/Screenshot%202025-01-17%20at%2019.44.55.png)
 
 ## Step 2: Disabling the Firewall
-After SSHing into the instance, disable the firewall:
+After SSHing into the instance, disable the firewall (if applicable):
+
 ```bash
-sudo systemctl stop firewalld       # Amazon Linux
-sudo ufw disable                   # Ubuntu
+# Disable the firewall service (if available)
+sudo systemctl stop firewalld
+
+# Note: If the service is not found, your instance does not have firewalld installed by default.
