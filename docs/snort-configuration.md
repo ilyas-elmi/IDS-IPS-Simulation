@@ -92,3 +92,26 @@ make
 sudo make install
 ```
 ![Dependencies](../screenshots/Dependencies.png)
+
+## Step 7: Configure and Build Snort:
+1. Navigate to the snort directory:
+```bash
+cd ~/snort-2.0.20 
+```
+2. Configure wihtout OpenAppID which will skip the requirement to download another libarary(not needed for this simutlation): 
+```bash
+./configure --disable-open-appid
+```
+3. Build Snort Source code: 
+```bash 
+make 
+```
+4. Install Snort:
+```bash 
+sudo make install
+```
+5. Verify installation: 
+```bash 
+snort --version
+```
+![Snort-Installed](/screenshots/snort-installed.png)
