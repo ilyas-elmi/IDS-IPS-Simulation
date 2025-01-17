@@ -8,7 +8,7 @@
    - Allow SSH (port 22) from your IP.
    - Allow All Traffic (0.0.0.0/0) to simulate a vulnerable environment.
 
-![EC2 Instance Launch](../screenshots/step1-ec2-setup.png)
+![EC2 Instance Launch](../screenshots/Screenshot%202025-01-17%20at%2019.44.55.png)
 
 ## Step 2: Disabling the Firewall
 After SSHing into the instance, disable the firewall:
