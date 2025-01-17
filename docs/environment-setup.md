@@ -13,7 +13,7 @@
 ## Step 2: Disabling the Firewall
 After SSHing into the instance, disable the firewall (if applicable):
 
-![Disabling Firewall](./screenshots/disabling-firewall.png)
+![Disabling Firewall](../screenshots/disabling-firewall.png)
 
 ```bash
 # Disable the firewall service (if available)
