@@ -29,6 +29,21 @@ Deployed an IDS/IPS using Snort on AWS EC2 to monitor and log malicious activity
 
 ---
 
+## The Use of Snort as an IDS/IPS
+
+### **Why Snort?**
+Snort is one of the most widely used and powerful open-source Intrusion Detection and Prevention Systems. It offers real-time traffic analysis and packet logging capabilities, making it a versatile tool for monitoring and protecting network environments.
+
+### **Benefits of Using Snort**
+1. **Real-Time Intrusion Detection**: Snort inspects network traffic in real time, detecting and alerting on suspicious or malicious activity.
+2. **Traffic Monitoring**: It captures and logs network packets, enabling detailed analysis of network events and anomalies.
+3. **Customizable Rules**: Snort supports user-defined rules to detect specific attack patterns, providing flexibility to adapt to unique security requirements.
+4. **Open-Source Community**: Backed by a large community, Snort offers extensive resources, rule sets, and continuous updates.
+5. **Cost-Effective Solution**: As an open-source tool, Snort is free to use, providing enterprise-grade features without licensing costs.
+6. **Integration**: Easily integrates with other security tools and dashboards for enhanced monitoring and reporting.
+
+---
+
 ## About IDS and IPS
 
 ### **What are IDS and IPS?**
