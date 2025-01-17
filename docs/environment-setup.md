@@ -19,4 +19,4 @@ sudo systemctl stop firewalld
 
 # Note: If the service is not found, your instance does not have firewalld installed by default.
 
-!![Disabling Firewall](./screenshots/disabling-firewall.png)
+![Disabling Firewall](../screenshots/disabling-firewall.png)
