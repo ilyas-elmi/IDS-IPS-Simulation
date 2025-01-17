@@ -68,3 +68,27 @@ sudo make install
 sudo ldconfig
 ``` 
 ![Libdnet Process](../screenshots/Screenshot%202025-01-17%20at%2021.23.56.png)
+
+## Step 6: Install DAQ Library
+The DAQ (Data Acquisition) library is required by Snort to process network packets. Follow these steps to install it:
+1. Download The DAQ source code:
+```bash
+wget https://www.snort.org/downloads/snort/daq-2.0.7.tar.gz
+```
+2. Extract DAQ archive:
+```bash 
+tar -xvzf daq-2.0.7.tar.gz
+cd daq-2.0.7
+```
+
+3. Configure the DAQ Library:
+You should be iside the DAQ directory. 
+```bash
+./configure
+```
+4. Build and install teh DAQ library:
+```bash 
+make
+sudo make install
+```
+![Dependencies](../screenshots/Dependencies.png)
