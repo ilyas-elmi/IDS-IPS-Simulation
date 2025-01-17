@@ -13,10 +13,11 @@
 ## Step 2: Disabling the Firewall
 After SSHing into the instance, disable the firewall (if applicable):
 
+![Disabling Firewall](./screenshots/disabling-firewall.png)
+
 ```bash
 # Disable the firewall service (if available)
 sudo systemctl stop firewalld
 
 # Note: If the service is not found, your instance does not have firewalld installed by default.
 
-![Disabling Firewall](./screenshots/disabling-firewall.png)
