@@ -44,6 +44,3 @@ Deployed an IDS/IPS using Snort on AWS EC2 to monitor and log malicious activity
 
 Organizations leverage IDS/IPS systems to maintain a robust defense against evolving cyber threats, ensuring operational continuity and safeguarding assets.
 
----
-
-Feel free to review and let me know if further tweaks are needed!
