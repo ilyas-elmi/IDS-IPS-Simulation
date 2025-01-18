@@ -184,7 +184,7 @@ alert icmp any any -> $HOME_NET any (msg:"ICMP Traffic Detected"; sid:1000001; r
 ``` 
 ![ping](/screenshots/rules-config1.png)
 
-(You may have to comment out all include rules and whitelist/blacklist except except the local.rules)
+(You may have to comment out all include rules and whitelist/blacklist sections except the local.rules)
  
 6. Test snort (you will need to find the full path)
 ```bash
