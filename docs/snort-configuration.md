@@ -119,3 +119,13 @@ sudo make install
 snort --version
 ``` 
 ![Snort-Installed](/screenshots/snort-installed.png)
+
+## Step 8: Create Configuration  Directories 
+Creating configuration directories ensures Snort has a structured place to store rules, logs, and dynamic modules for smooth operation.
+Run the following commands to set up the directories for Snort’s configuration and logs:
+```bash 
+sudo mkdir -p /etc/snort/rules
+sudo mkdir /var/log/snort
+sudo mkdir /usr/local/lib/snort_dynamicrules
+``` 
+![Directories](/screenshots/snort-directories.png)
