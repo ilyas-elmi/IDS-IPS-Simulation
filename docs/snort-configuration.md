@@ -186,7 +186,7 @@ alert icmp any any -> $HOME_NET any (msg:"ICMP Traffic Detected"; sid:1000001; r
 
 (You may have to comment out all include rules and whitelist/blacklist sections except the local.rules, look at configs directory) 
  
-6. Test snort (you will need to find the full path)
+## Step 10 Test snort (you will need to find the full path)
 ```bash
 sudo /usr/local/bin/snort -A console -q -c /etc/snort/snort.conf -i eth0
 ```
