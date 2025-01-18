@@ -171,3 +171,18 @@ var WHITE_LIST_PATH /etc/snort/rules
 var BLACK_LIST_PATH /etc/snort/rules
 ```
 ![Paths](/screenshots/paths.png)
+
+Save changes using Ctrl + O and exit using Ctrl + X
+
+5. Creat Custome rules in the local.rules file: 
+We edit local.rules to define custom detection rules specific to the traffic we want to monitor in this IDS simulation.
+Open the local.rules file: 
+```bash 
+sudo nano /etc/snort/rules/local.rules
+```
+Add this simple custom rule to detect ICMP traffic:
+```bash 
+alert icmp any any -> $HOME_NET any (msg:"ICMP Traffic Detected"; sid:1000001; rev:1;)
+``` 
+![ping](/screenshots/rules-config1.png)
+
