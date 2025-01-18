@@ -142,3 +142,32 @@ Verify this step using:
 ls -l /etc/snort
 ```
 ![Verification](/screenshots/main-directory.png)
+
+## Step 9: Customise snort.conf file. 
+The snort.conf file is the main configuration file for Snort. Customizing it ensures Snort monitors the correct network, uses the right rules, and stores logs appropriately.
+
+1. Open the configuration file: 
+```bash
+sudo nano /etc/snort/snort.conf
+```
+![config-file](/screenshots/config.png)
+
+2. Set the HOME_NET variable:
+The HOME_NET variable defines the network or host you want Snort to protect. For this simulation, its the private IP of my EC2 instance. 
+Locate the line ipvar HOME_NET any and replace "any" with your private ip. 
+
+![Private_IP](/screenshots/Private_IP.png)
+
+3. Update Paths for rules and logs:
+These paths guide Snort to the correct locations for rules and logs. Without these changes, Snort won’t function properly during the simulation. We created these specific directories to organize and structure Snort’s configurations, ensuring it operates smoothly during your simulation.
+
+Find the paths and replace them with: 
+```bash
+var RULE_PATH /etc/snort/rules
+var SO_RULE_PATH /usr/local/lib/snort_dynamicrules
+var PREPROC_RULE_PATH /etc/snort/rules
+
+var WHITE_LIST_PATH /etc/snort/rules
+var BLACK_LIST_PATH /etc/snort/rules
+```
+![Paths](/screenshots/paths.png)
