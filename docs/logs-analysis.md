@@ -17,6 +17,7 @@ Hydra works by trying a list of possible passwords (from a wordlist or custom li
 Hydra is particularly useful in penetration testing and security assessments. It allows security professionals to simulate an attacker trying multiple username and password combinations in a short period of time to identify weak or easily guessable passwords. The tool can use different attack modes and dictionaries (wordlists) to try a range of passwords, making it effective for testing the resilience of login systems.
 
 In summary, Hydra is an essential tool in the arsenal of cybersecurity professionals. It helps in testing systems by simulating attacks and identifying weaknesses, ultimately helping to reinforce security measures against brute force threats.
+
 --- 
 
 # Log Analysis for Brute Force Simulation
