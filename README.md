@@ -24,7 +24,7 @@ Deployed an IDS/IPS using Snort on AWS EC2 to monitor and log malicious activity
 
 1. Launch an EC2 instance and configure a vulnerable environment.
 2. Install and configure Snort as an IDS/IPS.
-3. Simulate normal and malicious traffic, including port scans and brute force.
+3. Simulate normal and malicious traffic e.g Brute Force attacks.
 4. Analyze logs to identify and document intrusion attempts.
 
 ---
