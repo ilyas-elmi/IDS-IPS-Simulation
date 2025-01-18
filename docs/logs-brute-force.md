@@ -22,9 +22,17 @@ In summary, Hydra is an essential tool in the arsenal of cybersecurity professio
 
 --- 
 
-## Snort Console Output Logs
+### **Snort Console Output Logs**
 
-The following logs were captured directly from the Snort console during the brute force simulation. These logs demonstrate that Snort successfully detected the attack attempts:
+The logs provided below demonstrate Snort's ability to detect and identify multiple failed SSH login attempts during the brute force attack simulation. Each log entry provides critical information about the events that Snort monitored, ensuring a clear understanding of the attack patterns. Here's what each component of the log entries represents:
+
+- **Date and Time**: Indicates the exact moment when the suspicious activity was detected. This is crucial for correlating events with other system logs or identifying the timeline of an attack.
+- **Priority Level**: Reflects the severity of the event as assessed by Snort. A higher priority often indicates a more critical threat, while lower priorities may represent informational or less severe events.
+- **Source and Destination**: Shows the IP addresses and ports involved in the activity.
+  - The **source IP address and port** represent the attacker attempting the brute force login.
+  - The **destination IP address and port** point to the target machine and service under attack, in this case, the SSH service on port `22`.
+
+This detailed log output validates that Snort is successfully monitoring and flagging suspicious activities, such as brute force attempts, which are essential for maintaining network security and detecting potential intrusions in real time.
 
 ```plaintext
 Preprocessor Object: SF_FTPTELNET  Version 1.2  <Build 13>
