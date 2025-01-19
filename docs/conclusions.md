@@ -7,7 +7,7 @@ This enterprise-scale security implementation validated Snort IDS capabilities f
 ## Strategic Outcomes
 
 ### Enhanced Threat Detection
-Engineered and deployed custom Snort rule configurations that achieved 99.8% accuracy in identifying brute force attacks, with zero false positives across 10,000+ connection attempts.
+Engineered and deployed custom Snort rule configurations with high accuracy in identifying brute force attacks, with zero false positives. 
 
 ### Security Architecture Innovation
 Developed and implemented a proprietary rules framework in `local.rules`, resulting in 60% faster threat detection compared to default configurations. This framework has been adopted as a security standard across three additional enterprise projects.
