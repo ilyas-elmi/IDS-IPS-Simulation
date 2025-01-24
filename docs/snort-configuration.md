@@ -17,7 +17,7 @@ sudo yum update -y
 ```
 
 ## Step 2: Install Required Dependencies
-nstall all the necessary tools and libraries for building and running Snort. This includes compilers and dependencies that will be needed throughout the installation process:
+Install all the necessary tools and libraries for building and running Snort. This includes compilers and dependencies that will be needed throughout the installation process:
 ```bash
 sudo yum install -y gcc gcc-c++ libpcap libpcap-devel pcre pcre-devel bison flex zlib zlib-devel make wget
 ```
