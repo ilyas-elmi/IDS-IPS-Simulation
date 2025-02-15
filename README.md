@@ -1,6 +1,6 @@
 # IDS-Simulation
 
-This project demonstrates my hands-on experience deploying and managing an Intrusion Detection System (IDS) using Snort on AWS EC2. It highlights my practical knowledge in network security, real-time traffic monitoring, and log analysis.
+This project demonstrates my hands-on experience deploying and managing an Intrusion Detection System (IDS) using Snort on AWS EC2. It highlights network security, real-time traffic monitoring, and log analysis.
 
 ## Key Highlights
 
